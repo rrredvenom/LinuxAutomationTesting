@@ -1,0 +1,20 @@
+tests:
+  test_7z_a:
+    cmd: '7z a'
+    params: '-t7z'
+
+  test_7z_d:
+    cmd: '7z d'
+    params: '-t7z'
+
+  test_7z_l:
+    cmd: '7z l'
+    params: '-t7z'
+
+
+folder_in: '/home/user/folder_in/'
+folder_out: '/home/user/folder_out/'
+folder_ext: '/home/user/folder_ext/'
+stat_file: 'stat.txt'
+files: [ 'file1.txt', 'file2.txt', 'file3.txt' ]
+file_size: 0
