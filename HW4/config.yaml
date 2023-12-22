@@ -1,0 +1,6 @@
+host: "0.0.0.0"
+username: "user2"
+password: "zf59am41"
+file_directory_path: "tests/p7zip-full.deb"
+file_directory_path_test: "tests1/p7zip-full.deb"
+target_directory: "/home/user2/p7zip-full.deb"
